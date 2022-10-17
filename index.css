@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+}
+li {
+  background: lightgrey;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+}
+
+
+
+.draggable .draggable-item {
+  cursor: grab;
+}
+.draggable .draggable-item:hover {
+  outline: 1px solid black;
+}
+.draggable .draggable-item.hint {
+  border: 1px solid hsl(25, 100%, 80%);
+  background: hsl(61, 100%, 85%);
+}
+.draggable .draggable-item.active {
+  border: 1px solid hsl(0, 100%, 82%);
+  background: hsl(0, 100%, 95%);
+}
